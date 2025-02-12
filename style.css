@@ -1,0 +1,74 @@
+body {
+    font-family: 'Comic Sans MS', 'Arial', sans-serif;
+    text-align: center;
+    background-color: #ffe6f2;
+}
+
+.container {
+    margin-top: 50px;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+.jojo-title {
+    font-size: 26px;
+    color: #ff66b2;
+    text-shadow: 2px 2px 5px #ff99cc;
+}
+
+.jojo-img {
+    width: 250px;
+    margin: 20px 0;
+    border-radius: 15px;
+}
+
+.dialogue {
+    font-size: 18px;
+    font-style: italic;
+    color: #ff3385;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+button {
+    font-size: 18px;
+    padding: 12px 25px;
+    margin: 8px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.yes {
+    background-color: #ff85a2;
+    color: white;
+    box-shadow: 0px 4px 6px rgba(255, 133, 162, 0.5);
+}
+
+.no {
+    background-color: #ffc2d1;
+    color: white;
+    box-shadow: 0px 4px 6px rgba(255, 194, 209, 0.5);
+}
+
+.yes:hover {
+    background-color: #ff6699;
+}
+
+.no:hover {
+    background-color: #ff99cc;
+}
+
+#response {
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #ff66b2;
+}

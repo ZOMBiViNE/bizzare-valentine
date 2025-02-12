@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>a bizarre valentine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="jojo-title">ゴゴゴゴ💗 WILL YOU BE MY VALENTINE? 💗ゴゴゴゴ </h1>
+        <img src="https://i.pinimg.com/736x/f3/42/07/f34207b248fee96a08641d9c14f0ddeb.jpg" alt="trish and mista" class="jojo-img">
+        <p class="dialogue">"YOUR STAND ABILITY HAS BEEN ACTIVATED... YOU MUST CHOOSE!"</p>
+        
+        <div class="buttons">
+            <button class="yes" onclick="jojoYes()">YES!</button>
+            <button class="no" onclick="jojoNo()">NO!</button>
+        </div>
+
+        <p id="response"></p>
+    </div>
+
+    <script>
+        function jojoYes() {
+            document.getElementById("response").innerHTML = "💗 i knew you'd say yes! 💗";
+        }
+        function jojoNo() {
+            document.getElementById("response").innerHTML = "this is why you STINK";
+        }
+    </script>
+</body>
+</html>
